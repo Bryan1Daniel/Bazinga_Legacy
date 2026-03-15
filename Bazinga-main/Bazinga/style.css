@@ -1,0 +1,103 @@
+/*header*/
+
+header {
+    background-color: #9dd3ff;
+}
+
+.logo {
+    height: 100px;
+    margin: 5px;
+    border-radius: 70px;
+}
+
+#tituloPricipal {
+    font-size: 60px;
+    font-family: 'Times New Roman';
+    display: inline;
+    position: relative;
+    bottom: 35px;
+    left: 150px;
+    margin: 0 230px;
+}
+
+.perfil {
+    height: 70px;
+    margin: 5px;
+    border-radius: 70px;
+    float: right;
+}
+
+/*nav*/
+
+.navegacaoCategotias {
+    background-color: #b2ddff;
+    width: 150px;
+    height: 495px;
+}
+
+.tituloCategoria {
+    font-size: 27px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 0 0 10px;
+}
+
+.categoria {
+    font-size: 20px;
+    position: relative;
+    left: 35px;
+}
+
+/*main*/
+
+#txtBusca {
+    background-color: #daefff;
+    border-radius: 5px;
+    border: none;
+    width: 85%;
+    height: 40px;
+    position: relative;
+    left: 210px;
+    bottom: 480px;
+  }
+
+  .tituloPrincipal {
+    position: relative;
+    left: 210px;
+    bottom: 480px;
+  }
+  
+  .tituloOutro {
+    position: relative;
+    left: 210px;
+    bottom: 480px;
+  }
+  
+  .livro {
+    position: relative;
+    left: 210px;
+    bottom: 480px;
+    width: 220px;
+    display: inline-block;
+  }
+
+/*footer*/
+
+footer {
+    background-color: #9dd3ff;
+    height: 110px;
+}
+
+.voltar {
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.contato {
+    display: block;
+    text-align: center;
+    margin-bottom: 5px;
+}

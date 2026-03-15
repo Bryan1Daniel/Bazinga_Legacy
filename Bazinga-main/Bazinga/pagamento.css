@@ -1,0 +1,65 @@
+.pagaForma {
+    background-color: #b2ddff;
+    width: 700px;
+    height: 360px;
+    margin: 30px 340px 0 340px;
+    border-radius: 30px;
+}
+
+h2 {
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.cartao {
+    width: 300px;
+    padding: 25px;
+    display: static;
+}
+
+label {
+    font: 1em sans-serif;
+    padding: 10px;
+}
+
+.pix {
+    width: 300px;
+    padding: 25px;
+    display: static;
+    position: absolute;
+    bottom: 105px;
+    left: 660px;
+}
+
+.chave {
+    font: 1em sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.chave::before {
+    content: "Chave Pix: ";
+    font-weight: bold;
+}
+
+.qr {
+    width: 200px;
+    padding: 10px 50px;
+}
+
+#enviar {
+    font-size: 15px;
+    background-color: #ffb800;
+    width: 170px;
+    height: 40px;
+    border: #777777 solid 0.1px;
+    border-radius: 25px;
+    margin: 20px 577px;
+}

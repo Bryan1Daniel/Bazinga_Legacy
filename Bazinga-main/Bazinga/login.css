@@ -1,0 +1,45 @@
+.login {
+    background-color: #9dd3ff;
+    margin: 55px 300px;
+    border-radius: 30px;
+}
+
+.formularioLogin {
+    padding: 30px 80px;
+}
+
+label {
+    font-size: 21px;
+}
+
+#generos {
+    width: 10px;
+}
+
+.inputNormal {
+    margin: 15px 0;
+    background-color: #daefff;
+    border-radius: 5px;
+    border: #777777 solid 0.1px;
+    width: 500px;
+    height: 20px;
+}
+
+#enviar {
+    background-color: #ffb800;
+    width: 80px;
+    height: 30px;
+    border: #777777 solid 0.1px;
+    border-radius: 15px;
+}
+
+.paraCadastro {
+    color: #ffb800;
+    text-decoration: solid;
+    font-weight: bold;
+}
+
+.paraCadastro:hover {
+    text-decoration: underline;
+}
+

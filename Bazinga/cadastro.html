@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazinga</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="login.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <a href="index.html"><img class="logo" src="logoFake.png" alt="Logo"></a>
+        <h1 id="tituloPricipal">Livraria Bazinga</h1>
+        <img class="perfil" src="perfil.png" alt="Perfil">
+
+    </header>
+
+    <main>
+
+        <section class="login">
+
+            <form class="formularioLogin">
+
+                <label for="nome">Nome Completo:</label><br>
+                <input type="text" id="nome" name="nome" placeholder="Nome Completo" class="inputNormal">
+
+                <br><br>
+
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" placeholder="Email" class="inputNormal">
+
+                <br><br>
+
+                <label for="telefone">Telefone:</label><br>
+                <input type="tel" id="telefone" name="telefone" placeholder="Telefone" class="inputNormal">
+
+                <br><br>
+
+                <fieldset>
+
+                    <legend>Gênero:</legend>
+
+                        <input type="radio" id="genero1" name="genero" value="Masculino">
+                        <label id="generos" for="genero1">Masculino</label>
+                        
+                        <input type="radio" id="genero2" name="genero" value="Feminino">
+                        <label id="generos" for="genero2">Feminino</label>
+                        
+                        <input type="radio" id="genero3" name="genero" value="Nenhum">
+                        <label id="generos" for="genero3">Prefiro não dizer</label>
+
+                </fieldset>
+
+                <br><br>
+
+                <label for="senha">Senha:</label><br>
+                <input type="password" id="senha" name="senha" placeholder="Senha" class="inputNormal">
+
+                <input type="submit" id="enviar">
+
+                <p>Já tem uma conta? Faça o login <a class="paraCadastro" href="login.html">AQUI</a></p>
+
+            </form>
+                
+        </section>
+
+    </main>
+
+    <footer>
+        <a class="voltar" href="#tituloPricipal">Voltar ao topo ^</a>
+        <p class="contato">NOSSOS CONTATOS</p>
+        <p class="telefoneContato">+55 (41) 99876-5432</p>
+        <p class="emailContato">livraria.bazinga@gmail.com</p>
+        <div class="horaAtendimento"><p>Horário de atendimentos <br> Das 8:00 até as 19:00</p></div>
+    </footer>
+    
+</body>
+
+</html>

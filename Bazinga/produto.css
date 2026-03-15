@@ -1,0 +1,76 @@
+.capaLivro {
+    width: 300px;
+    margin: 50px;
+}
+
+h2 {
+    font-size: 50px;
+    display: inline;
+    position: relative;
+    bottom: 450px;
+}
+
+.boxSinopse {
+    width: 900px;
+    display: inline-block;
+    position: relative;
+    bottom: 430px;
+    left: 400px;
+}
+
+.sinopse {
+    font-size: 23px;
+    display: inline;
+}
+
+.sinopse::before{
+    content: "Sinopse: ";
+    font-weight: bold;
+}
+
+.boxGenero {
+    width: 900px;
+    display: inline-block;
+    position: relative;
+    bottom: 400px;
+    left: 400px;
+}
+
+.generoLivro {
+    font-size: 23px;
+    display: inline;
+}
+
+.generoLivro::before{
+    content: "Gênero: ";
+    font-weight: bold;
+}
+
+.boxValor {
+    width: 900px;
+    display: inline-block;
+    position: relative;
+    bottom: 370px;
+    left: 400px;
+}
+
+.valor {
+    font-size: 23px;
+    display: inline;
+}
+
+.valor::before{
+    content: "R$";
+    font-weight: bold;
+}
+
+#enviar {
+    background-color: #ffb800;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    display: inline;
+    position: relative;
+    bottom: 200px;
+    right: 500px;
+}
